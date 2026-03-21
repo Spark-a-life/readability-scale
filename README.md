@@ -51,7 +51,6 @@ The labels above are the stable public interface. Age-framing ("16-year-old", "e
 
 ## Origin
 
-Built by [Dr Will](https://www.linkedin.com/in/dr-will-siew/), APE Intelligence.
-Extracted from the WiseGen MA-3 Executive Layer as a system-agnostic community pattern.
+A community contribution. Adapted from an internal governance-driven AI workflow system.
 
-© 2026 Dr Will, APE Intelligence. All rights reserved.
+© 2026 Dr William Jing Wen Siew. Released under MIT License.
