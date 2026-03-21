@@ -78,7 +78,7 @@ This command is a system-agnostic pattern built on the readability-scale engine.
 
 The readability-scale is designed to be upgraded by client persona-type as the system goes live with institutional clients (education, healthcare, government, corporate). See the upgrade path in `readability-scale.md`.
 
-If you are adapting this for your own system, replace the WiseGen-specific trigger phrases, escalation paths, and client-type flags with your own equivalents. The three-persona structure applies universally.
+If you are adapting this for your own system, replace the system-specific trigger phrases, escalation paths, and client-type flags with your own equivalents. The three-persona structure applies universally.
 
 ---
 
