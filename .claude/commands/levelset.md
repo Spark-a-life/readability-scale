@@ -83,4 +83,4 @@ If you are adapting this for your own system, replace the system-specific trigge
 ---
 
 *LevelSet v1.0.0 — 2026-03-17*
-*© 2026 Dr Will, APE Intelligence. All rights reserved.*
+*© 2026 Dr Will, Spark-a-life. All rights reserved.*

@@ -53,4 +53,4 @@ See `readability-scale.md` for the full construction specification of each perso
 
 ---
 
-*© 2026 Dr Will, APE Intelligence. All rights reserved.*
+*© 2026 Dr Will, Spark-a-life. All rights reserved.*

@@ -100,4 +100,4 @@ To activate a client-specific Persona 3 calibration, append the client type to t
 ---
 
 *readability-scale v1.0.0 — Core Persona Calibration Engine*
-*© 2026 Dr Will, APE Intelligence. All rights reserved.*
+*© 2026 Dr Will, Spark-a-life. All rights reserved.*

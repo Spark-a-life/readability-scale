@@ -53,4 +53,4 @@ The labels above are the stable public interface. Age-framing ("16-year-old", "e
 
 A community contribution. Adapted from an internal governance-driven AI workflow system.
 
-© 2026 Dr William Jing Wen Siew. Released under MIT License.
+© 2026 Dr Will, Spark-a-life. Released under MIT License.
