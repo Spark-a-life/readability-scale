@@ -1,6 +1,8 @@
-# /levelset — LevelSet: Triple-Version Explanation Command
+# /levelset — Triple-Version Explanation Command
 
-**Engine:** readability-scale v1.0.0
+**Engine:** readability-scale v1.0.3
+
+**Canonical source:** `.claude/commands/` in this repo.
 
 When invoked, produce **three versions** of an explanation for the topic in `$ARGUMENTS` (or the most recently discussed topic if no argument is given).
 
@@ -38,6 +40,12 @@ See `readability-scale.md` for the full construction specification of each perso
 
 ---
 
+## Compound invocation
+
+If **`/elaborate` and `/levelset`** are both requested for the same topic in one message, follow **`readability-scale.md` — Compound invocation** (two full command outputs in request order; do not merge unless the user asks).
+
+---
+
 ## Trigger phrases
 
 - "levelset this"
@@ -56,6 +64,7 @@ See `readability-scale.md` for the full construction specification of each perso
 /levelset why the cache was invalidated
 /levelset the authentication handshake
 /levelset
+/levelset the observability stack --client healthcare
 /levelset the data retention policy --client healthcare
 ```
 
@@ -68,19 +77,18 @@ See `readability-scale.md` for the full construction specification of each perso
 | Your audience is technical staff or operators | Your audience includes a decision-maker, sponsor, or board member |
 | The topic is implementation-focused | The topic has governance, risk, or approval implications |
 | A two-level explanation is sufficient | You need executive sign-off or stakeholder alignment |
-| Quick briefing for a technical team member | Full governance brief for a decision-maker or institutional stakeholder |
 
 ---
 
 ## Community note
 
-This command is a system-agnostic pattern built on the readability-scale engine. The three output labels are the stable public interface. The internal construction method (how those three voices are calibrated) is defined in `readability-scale.md` and is intentionally not surfaced in output.
+This command is a system-agnostic pattern built on the readability-scale engine. The three output labels are the stable public interface. The internal construction method is defined in `readability-scale.md` and is intentionally not surfaced in output.
 
-The readability-scale is designed to be upgraded by client persona-type as the system goes live with institutional clients (education, healthcare, government, corporate). See the upgrade path in `readability-scale.md`.
+The engine is designed to be upgraded with client persona-types (education, healthcare, government, corporate). See the upgrade path in `readability-scale.md`.
 
-If you are adapting this for your own system, replace the system-specific trigger phrases, escalation paths, and client-type flags with your own equivalents. The three-persona structure applies universally.
+If you are adapting this for your own system, replace any system-specific trigger phrases, escalation paths, and client-type flags with your own equivalents. The three-persona structure applies universally.
 
 ---
 
-*LevelSet v1.0.0 — 2026-03-17*
-*© 2026 Dr Will, Spark-a-life. All rights reserved.*
+*levelset v1.0.3 — 2026-04-01*
+*© 2026 Dr Will, Spark-a-life. Released under MIT License.*

@@ -1,0 +1,4 @@
+# Internal files — do not push to GitHub
+WGEN-KB-019-bridge.md
+scripts/
+skills/
